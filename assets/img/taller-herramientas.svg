@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Pared de herramientas del taller">
+  <rect width="600" height="420" rx="16" fill="#101B3B"/>
+  <g fill="#1B2A57"><circle cx="40" cy="40" r="3"/><circle cx="100" cy="40" r="3"/><circle cx="160" cy="40" r="3"/><circle cx="220" cy="40" r="3"/><circle cx="280" cy="40" r="3"/><circle cx="340" cy="40" r="3"/><circle cx="400" cy="40" r="3"/><circle cx="460" cy="40" r="3"/><circle cx="520" cy="40" r="3"/></g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 90v240" stroke="#FFC62E" stroke-width="18" fill="none"/>
+    <circle cx="90" cy="86" r="30" fill="none" stroke="#FFC62E" stroke-width="14"/>
+    <path d="M200 100l60 220" stroke="#fff" stroke-width="16" fill="none"/>
+    <path d="M178 104a26 26 0 1 1 44-10" stroke="#fff" stroke-width="14" fill="none"/>
+    <path d="M340 90v230" stroke="#2341D9" stroke-width="20" fill="none"/>
+    <rect x="318" y="70" width="44" height="40" rx="8" fill="#2341D9"/>
+    <path d="M440 110h100M440 170h100M440 230h100M440 290h100" stroke="#fff" stroke-width="12" fill="none" opacity=".85"/>
+    <circle cx="440" cy="110" r="10" fill="#FFC62E"/><circle cx="440" cy="230" r="10" fill="#FFC62E"/>
+  </g>
+</svg>

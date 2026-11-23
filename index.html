@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadena Taller: reparación y mantenimiento de bicicletas con precios claros. Reserva tu revisión en línea y recoge tu bici lista.">
+  <title>Cadena Taller · Reparación de bicicletas con precios claros</title>
+  <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="encabezado">
+    <div class="contenedor">
+      <a class="encabezado__logo" href="#inicio" aria-label="Cadena Taller, ir al inicio">
+        <img src="assets/logos/logo.svg" alt="Cadena Taller" width="183" height="40">
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <img src="assets/icons/icon-menu.svg" alt="" width="24" height="24">
+      </button>
+      <nav class="nav" id="menu-principal" aria-label="Principal">
+        <ul>
+          <li><a href="#precios">Servicios y precios</a></li>
+          <li><a href="#proceso">Cómo funciona</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a class="boton boton--cobalto" href="#reserva">Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="contenedor">
+        <div>
+          <h1>Tu bici, lista para rodar hoy.</h1>
+          <p>Reparamos y ajustamos bicicletas urbanas, de ruta y de montaña. Sabes el precio antes de dejarla.</p>
+          <div class="hero__acciones">
+            <a class="boton boton--primario" href="#reserva">Reservar revisión</a>
+            <a class="boton boton--borde" href="#precios">Ver precios</a>
+          </div>
+          <ul class="hero__datos">
+            <li>Revisión desde S/ 35</li>
+            <li>Garantía de 30 días</li>
+            <li>Lun a sáb, 8 a. m. a 7 p. m.</li>
+          </ul>
+        </div>
+        <div class="hero__ilustracion">
+          <img src="assets/img/hero-bici.svg" alt="Ilustración de una bicicleta urbana" width="600" height="340">
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="precios">
+      <div class="contenedor">
+        <h2>Servicios y precios</h2>
+        <p class="seccion__intro">Estos son los trabajos más pedidos. Si tu bici necesita algo distinto, te damos el presupuesto antes de empezar.</p>
+        <ul class="precios">
+          <li>
+            <h3>Revisión express</h3>
+            <p>Frenos, cambios, presión de llantas y ajuste general.</p>
+            <span class="tiempo">45 min</span>
+            <span class="precio">S/ 35</span>
+          </li>
+          <li>
+            <h3>Mantenimiento completo</h3>
+            <p>Limpieza, lubricación, frenos, cambios, ruedas y dirección.</p>
+            <span class="tiempo">24 horas</span>
+            <span class="precio">S/ 90</span>
+          </li>
+          <li>
+            <h3>Cambio de frenos</h3>
+            <p>Pastillas o zapatas, cable y ajuste final.</p>
+            <span class="tiempo">1 hora</span>
+            <span class="precio">S/ 45</span>
+          </li>
+          <li>
+            <h3>Ajuste de cambios</h3>
+            <p>Transmisión sin saltos ni ruidos al pedalear.</p>
+            <span class="tiempo">40 min</span>
+            <span class="precio">S/ 30</span>
+          </li>
+          <li>
+            <h3>Reparación de llanta</h3>
+            <p>Parche o cambio de cámara, y revisión del aro.</p>
+            <span class="tiempo">30 min</span>
+            <span class="precio">S/ 15</span>
+          </li>
+          <li>
+            <h3>Armado de bicicleta nueva</h3>
+            <p>Montaje, ajuste de medidas y prueba de ruta.</p>
+            <span class="tiempo">2 horas</span>
+            <span class="precio">S/ 60</span>
+          </li>
+        </ul>
+        <p class="nota">Los repuestos se cobran aparte y solo con tu aprobación.</p>
+      </div>
+    </section>
+
+    <section class="seccion seccion--blanca" id="proceso">
+      <div class="contenedor">
+        <h2>Cómo funciona</h2>
+        <ol class="pasos">
+          <li><div><h3>Reserva</h3><p>Elige servicio, día y hora desde esta página.</p></div></li>
+          <li><div><h3>Diagnóstico</h3><p>Revisamos tu bici contigo y te damos el precio final.</p></div></li>
+          <li><div><h3>Reparación</h3><p>Trabajamos solo en lo que aprobaste.</p></div></li>
+          <li><div><h3>Entrega</h3><p>Te avisamos por WhatsApp y recoges con prueba de ruta.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="seccion" id="nosotros">
+      <div class="contenedor nosotros">
+        <div class="nosotros__texto">
+          <h2>Un taller pequeño que explica lo que hace</h2>
+          <p>Somos mecánicos que andamos en bici todos los días. Te mostramos la pieza gastada y te decimos qué es urgente y qué puede esperar.</p>
+          <ul class="ventajas">
+            <li><img src="assets/icons/icon-garantia.svg" alt="" width="24" height="24"><div><strong>Garantía de 30 días</strong><span>Si el ajuste falla, lo corregimos sin costo.</span></div></li>
+            <li><img src="assets/icons/icon-herramienta.svg" alt="" width="24" height="24"><div><strong>Repuestos con boleta</strong><span>Marcas reconocidas y precio a la vista.</span></div></li>
+            <li><img src="assets/icons/icon-reloj.svg" alt="" width="24" height="24"><div><strong>Entrega en 24 horas</strong><span>La mayoría de trabajos salen el mismo día.</span></div></li>
+          </ul>
+        </div>
+        <img src="assets/img/taller-herramientas.svg" alt="Pared de herramientas del taller" width="600" height="420" loading="lazy">
+      </div>
+    </section>
+
+    <section class="seccion seccion--blanca" id="preguntas">
+      <div class="contenedor">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq">
+          <details><summary>¿Necesito reservar?</summary><p>No es obligatorio, pero con reserva te atendemos sin espera y apartamos tu hora.</p></details>
+          <details><summary>¿Reparan bicicletas eléctricas?</summary><p>Hacemos frenos, llantas y ajustes mecánicos. No trabajamos con baterías ni motores.</p></details>
+          <details><summary>¿Cuánto demora una reparación?</summary><p>Los ajustes salen en menos de una hora. El mantenimiento completo, en 24 horas.</p></details>
+          <details><summary>¿Cómo pago?</summary><p>Aceptamos efectivo, Yape, Plin y tarjeta al recoger tu bici.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="reserva">
+      <div class="contenedor reserva">
+        <div>
+          <h2>Reserva tu revisión</h2>
+          <p class="seccion__intro">Déjanos tus datos y te escribimos por WhatsApp para confirmar la hora.</p>
+          <form class="formulario" id="form-reserva" novalidate style="margin-top:32px">
+            <div class="fila">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                <span class="error">Escribe tu nombre (mínimo 3 letras).</span>
+              </div>
+              <div class="campo">
+                <label for="telefono">WhatsApp</label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" required>
+                <span class="error">Escribe un número válido, por ejemplo 987 654 321.</span>
+              </div>
+            </div>
+            <div class="fila">
+              <div class="campo">
+                <label for="servicio">Servicio</label>
+                <select id="servicio" name="servicio" required>
+                  <option value="">Elige un servicio</option>
+                  <option>Revisión express</option>
+                  <option>Mantenimiento completo</option>
+                  <option>Cambio de frenos</option>
+                  <option>Ajuste de cambios</option>
+                  <option>Reparación de llanta</option>
+                  <option>Armado de bicicleta nueva</option>
+                </select>
+                <span class="error">Elige un servicio.</span>
+              </div>
+              <div class="campo">
+                <label for="fecha">Día</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <span class="error">Elige un día.</span>
+              </div>
+            </div>
+            <div class="campo">
+              <label for="comentario">Comentario (opcional)</label>
+              <textarea id="comentario" name="comentario"></textarea>
+            </div>
+            <button class="boton boton--cobalto" type="submit">Enviar reserva</button>
+            <p class="confirmacion" id="confirmacion" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <aside class="contacto" aria-label="Datos de contacto">
+          <h3>Visítanos</h3>
+          <ul>
+            <li><img src="assets/icons/icon-ubicacion.svg" alt="" width="24" height="24"><span>Av. Ejemplo 123, local 4</span></li>
+            <li><img src="assets/icons/icon-reloj.svg" alt="" width="24" height="24"><span>Lunes a sábado<br>8 a. m. a 7 p. m.</span></li>
+            <li><img src="assets/icons/icon-correo.svg" alt="" width="24" height="24"><a href="mailto:hola@cadenataller.example">hola@cadenataller.example</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <img src="assets/logos/logo-blanco.svg" alt="Cadena Taller" width="146" height="32">
+      <p>&copy; <span id="anio">2026</span> Cadena Taller. Proyecto académico de Diseño Web.</p>
+    </div>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

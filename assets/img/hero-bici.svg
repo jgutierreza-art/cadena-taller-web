@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="Ilustración de una bicicleta urbana">
+  <g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="125" cy="225" r="90"/>
+    <circle cx="475" cy="225" r="90"/>
+    <path d="M125 225L280 225 235 120 125 225M235 120L415 130M280 225L415 130M415 130L475 225M415 130L428 100M405 98L448 98M215 106L262 106M235 120L238 106"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="3" opacity=".55">
+    <circle cx="125" cy="225" r="60"/><circle cx="475" cy="225" r="60"/>
+  </g>
+  <circle cx="125" cy="225" r="9" fill="#FFC62E"/><circle cx="475" cy="225" r="9" fill="#FFC62E"/>
+  <circle cx="280" cy="225" r="20" fill="#FFC62E" stroke="#fff" stroke-width="7"/>
+  <path d="M262 245l-14 22M298 205l14-22" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+</svg>
